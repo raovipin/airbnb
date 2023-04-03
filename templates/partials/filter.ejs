@@ -1,0 +1,84 @@
+ <div class="filter">
+            <button id="btn" onclick="oc()" >
+                <img src="/img/filter1.jpg" alt="Amazing Views" class="imgs" ><br>
+                <p class="label">Amazing views</p>
+            </button>
+            <button  >
+                <img src="/img/filter2.jpg" alt="OMG" class="imgs"><br>
+                <p class="label">OMG!</p>
+            </button>
+            <button >
+                <img src="/img/filter3.jpg" alt="Historical homes" class="imgs"><br>
+                <p class="label">Historical homes</p>   
+            </button>
+            <button >
+                <img src="/img/filter4.jpg" alt="Surfing" class="imgs"><br>
+                <p class="label">Surfing</p>
+            </button>
+            <button > 
+                <img src="/img/filter5.jpg" alt="Windmills" class="imgs"><br>
+                <p class="label">Windmills</p>
+            </button>
+            <button>
+                <img src="/img/filter6.jpg" alt="Private rooms" class="imgs"><br>
+                <p class="label">Private rooms</p>
+            </button>
+            <button>
+                <img src="/img/filter7.jpg" alt="Farms" class="imgs"><br>
+                <p class="label">Farms</p>
+            </button>
+            <button >
+                <img src="/img/filter8.jpg" alt="Amazing pools" class="imgs"><br>
+                <p class="label">Amazing pools</p>
+            </button>
+            <button>
+                <img src="/img/filter9.jpg" alt="Beach" class="imgs"><br>
+                <p class="label">Beach</p>
+            </button>
+            <button >
+                <img src="/img/filter10.jpg" alt="Luxe" class="imgs"><br>
+                <p class="label">Luxe</p>
+            </button>
+            <button >
+                <img src="/img/filter11.jpg" alt="Cabins" class="imgs"><br>
+                <p class="label">Cabins</p>
+            </button>
+            <button >
+                <img src="/img/filter12.jpg" alt="Countryside" class="imgs"><br>
+                <p class="label">Countryside</p>
+            </button>
+        
+            
+        
+        </div>
+        <script>
+     
+     function oc() {
+           var y = document.getElementsByClassName("label")
+            var x = document.getElementById("btn");
+            if (x.style.opacity === "0.5" ) {
+                x.style.opacity = "1" ;
+    
+            } else {
+                x.style.opacity = "0.5";
+            }
+    
+    
+            if(x.style.borderBottom==="none"){
+                x.style.borderBottom="1px solid black"
+            }else{
+                x.style.borderBottom="none"
+            }
+    
+    
+        
+            if(y.style.color===" #717171"){
+                y.style.color==="black"
+            } else {
+                y.style.color===" #717171"
+            }
+    
+        }
+        
+    
+        </script> 
